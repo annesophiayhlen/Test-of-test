@@ -35,5 +35,11 @@ void draw(){
   else if (rectY>maxX){
       speedY = -1;
       fill(random (bla, wh), random (bla, wh), random (bla, wh));
+
+// UFO glas/top
+strokeWeight(1);
+fill(196,243,255);
+arc(mouseX,mouseY,150,150, 0, PI);
+      
  }
 } 
